@@ -1,0 +1,19 @@
+{
+  "name": "@thisguchris/react-sticky-browser-native",
+  "version": "1.0.0",
+  "description": "Abtstraction for position sticky in the form of a React component.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "position",
+    "sticky",
+    "react",
+    "runs",
+    "natively",
+    "browser"
+  ],
+  "author": "Chris <thisguychriz@gmail.com> (https://github.com/thisguychris)",
+  "license": "MIT"
+}
