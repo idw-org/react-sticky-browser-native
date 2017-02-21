@@ -4,7 +4,9 @@
   "description": "Abtstraction for position sticky in the form of a React component.",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "precommit": "npm run pretty",
+    "pretty": "prettier --write src/**/*.js"
   },
   "keywords": [
     "position",
@@ -15,5 +17,14 @@
     "browser"
   ],
   "author": "Chris <thisguychriz@gmail.com> (https://github.com/thisguychris)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-preset-env": "^1.1.8",
+    "husky": "^0.13.1",
+    "prettier": "^0.18.0"
+  },
+  "dependencies": {
+    "@thisguychris/css-feature-test": "^1.0.1"
+  }
 }
